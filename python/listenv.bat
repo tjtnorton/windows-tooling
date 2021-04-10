@@ -1,0 +1,5 @@
+@ECHO OFF
+SETLOCAL
+    CALL pyenv >NUL
+    CALL dir /b %_PYENV%
+ENDLOCAL
